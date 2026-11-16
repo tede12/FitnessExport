@@ -1,0 +1,19 @@
+[extend]
+useDefault = true
+
+[[rules]]
+id = "generic-api-key"
+
+[[rules.allowlists]]
+description = "Swift key type declarations contain no key bytes"
+condition = "AND"
+regexTarget = "match"
+paths = ['''(^|/)FitnessSyncKit/Sources/Crypto/PairingCrypto\.swift$''']
+regexes = ['''privateKey:\s*Curve25519\.(Signing|KeyAgreement)\.PrivateKey''']
+
+[[rules.allowlists]]
+description = "Known OAuth signatures derived from synthetic test inputs"
+condition = "AND"
+regexTarget = "line"
+paths = ['''(^|/)FitnessExportTests/Sources/GarminAndLedgerTests\.swift$''']
+regexes = ['''2exxTnyQ9fHxi(%2F|/)k(%2F|/)F6WGEcm4o5U(%3D|=)''', '''jXkOqI7Ek7fRCTHZia0Xb6hVhCs(%3D|=)''']

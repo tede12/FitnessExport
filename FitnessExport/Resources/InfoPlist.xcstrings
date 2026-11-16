@@ -1,0 +1,70 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSHealthShareUsageDescription": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FitnessExport legge gli allenamenti e i dati di Salute per esportarli, analizzarli e sincronizzarli con il Mac associato."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FitnessExport reads workouts and Health data to export, analyze and sync them with your paired Mac."
+          }
+        }
+      }
+    },
+    "NSHealthUpdateUsageDescription": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FitnessExport non modifica i dati di Salute."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FitnessExport does not modify Health data."
+          }
+        }
+      }
+    },
+    "NSCameraUsageDescription": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La fotocamera legge il codice di associazione mostrato dal Mac."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The camera scans the pairing code shown on your Mac."
+          }
+        }
+      }
+    },
+    "NSLocalNetworkUsageDescription": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FitnessExport invia i dati al Mac associato sulla rete locale."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FitnessExport sends data to your paired Mac over the local network."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

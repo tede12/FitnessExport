@@ -1,0 +1,22 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSLocalNetworkUsageDescription": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FitnessExport riceve i dati dall’iPhone associato sulla rete locale."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FitnessExport receives data from your paired iPhone over the local network."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
